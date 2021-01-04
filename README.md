@@ -4,21 +4,18 @@
 
 VoPho application has three major parts, One andorid application and two classifiers running on Azure:
 
-```
 1. Application : Go into the folder VoPho for source code. Application is comaptible upto latest version of android. (May
 not work below API version 15)
 2. APK File : You can find apk file in apk folder named VoPho.apk
-3. Gender Detection Service : Gender Detection service is running in Azure cloude server. Service POST url :
-http://168.61.177.30:5000/gender
-4. Indoor-Outdoor Service : Indoor-Outdoor Service is running in Azure cloude server. Service POST url :
-http://168.61.177.30:5001/places
+3. Gender Detection Service : Gender Detection service is running in Azure cloud server.
+4. Indoor-Outdoor Service : Indoor-Outdoor Service is running in Azure cloude server. 
 5. Postman : You can ping above provided two services out of android application as as well. If using Postman, Choose
 POST as request type & key :“file”, key-type (on extreme right of key column) : “file” and choose file in Value
 column.
 6. Source Code : You can find source code of both services in filter folder in zip file.
 7. test_images : We have uploaded a folder with test images as well for testing purpose. Although you could run this
 application in any folder, we recommend using only clear face images with high resolution.
-```
+
 ## Running Services locally
 
 You need to install **Virtualenv or Pyenv**.
