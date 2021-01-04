@@ -121,7 +121,5 @@ project
 | | webapp.py
 | | req.txt
 ```
-```
-We highly recommend to not change folder structure.
-```
+
 
