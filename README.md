@@ -1,6 +1,5 @@
 # VoPho: Voice command based attribute filtering android
 
-# application - Team 31
 
 VoPho application has three major parts, One andorid application and two classifiers running on Azure:
 
